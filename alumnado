@@ -24,10 +24,14 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
-* **nifnie**: NIF o NIE del docente.
-* **pasaporte**: Pasaporte del docente.
-
-**Observaciones**: Debe cumplimentarse solamente uno de ellos.
+* **tieneMatriculaEnElCentro**:
+* **conMatriculaEnElCurso**:
+* **cial**: CIAL del alumnado.
+* **nifnie**: NIF o NIE del alumnado.
+* **pasaporte**: Pasaporte del alumnado.ç
+* **tieneMatriculaActiva**:
+* **nifNieResponsable**: NIF o NIE del responsable del alumnado.
+* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
 
 ### Opción 2
 * **tieneServicioEnElCentro**: Booleano que permite seleccionar a los docentes que tienen o han tenido algún servicio en el centro. Si no se indica, se seleccionan todos los docentes del centro.
