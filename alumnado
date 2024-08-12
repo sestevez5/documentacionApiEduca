@@ -28,7 +28,7 @@ Pueden ser comunes o específicos de cada opción.
 * **conMatriculaEnElCurso**:
 * **cial**: CIAL del alumnado.
 * **nifnie**: NIF o NIE del alumnado.
-* **pasaporte**: Pasaporte del alumnado.ç
+* **pasaporte**: Pasaporte del alumnado.
 * **tieneMatriculaActiva**:
 * **nifNieResponsable**: NIF o NIE del responsable del alumnado.
 * **pasaporteResponsable**: Pasaporte del responsable del alumnado.
