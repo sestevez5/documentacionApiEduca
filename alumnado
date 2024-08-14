@@ -28,17 +28,16 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 1
 * **codigoCentro**: Obligatorio (Ej. 38010773)
+* **nifNieResponsable**: NIF o NIE del responsable del alumnado.
+* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
 
 ### Opción 2
 
 * **cial**: CIAL del alumnado.
 * **nifnie**: NIF o NIE del alumnado.
 * **pasaporte**: Pasaporte del alumnado.
-* **nifNieResponsable**: NIF o NIE del responsable del alumnado.
-* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
 
-
-**Observaciones**: Ambos son opcionales.
+**Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no etán permitidos en ninguna de las opciones.
 
 
 # Ejemplos.
