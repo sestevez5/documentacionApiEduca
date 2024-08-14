@@ -18,7 +18,6 @@ Pueden ser comunes o específicos de cada opción.
 * **nivelDetalle**: r, m, e (reducido, medio, extendido). Si no se indica, su valor por defecto será r.
 * **tieneMatriculaActiva**: selecciona al alumnado con matrícula activa en el centro.
 
-
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* Opción 1: Sólo es obligatorio el codigoCentro.
@@ -37,15 +36,14 @@ Pueden ser comunes o específicos de cada opción.
 * **nifnie**: NIF o NIE del alumnado.
 * **pasaporte**: Pasaporte del alumnado.
 
-**Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no etán permitidos en ninguna de las opciones.
-
+**Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no están permitidos en ninguna de las opciones.
 
 # Ejemplos.
-### A) Solicitud de datos extendidos del docente con nif = 00000001R en el centro con código "35010488".
-> * ?opcion=1 & codigoCentro=35010488 & nifnie=00000001R & nivelDetalle=e
+### A) Solicitud de datos extendidos del alumno con cial B00P08015J.
+> * ?opcion=2 & cial=B00P08015J & nivelDetalle=e
 
-### B) Solicitud de datos reducidos de todos los docentes del centro con código "35010488".
-> * ?opcion=2 & codigoCentro=35010488
+### B) Solicitud de datos reducidos de todo el alumnado del centro con código "35010488".
+> * ?opcion=1 & codigoCentro=35010488
 
-### C) Solicitud de datos con nivel de detalle medio de los docentes del centro con código "35010488" y servicio en el curso 2023. 
-> * ?opcion=2 & codigoCentro=35010488 & tieneServicioEnElCentro=true & tieneServicioEnElCurso=2023 & nivelDetalle=m
+### C) Solicitud de datos con nivel de detalle medio del alumnado del centro con código "35010488" y matrícula en el curso 2023. 
+> * ?opcion=1 & codigoCentro=35010488 & conMatriculaEnElCurso=2023 & nivelDetalle=m
