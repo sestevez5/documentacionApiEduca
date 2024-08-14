@@ -13,7 +13,6 @@ Pueden ser comunes o específicos de cada opción.
 * **posicionInicial**: número de página a partir de la que se recuperarán los datos. Si no se indica, su valor por defecto será 0.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
-* **codigoCentro**: Obligatorio (Ej. 38010773)
 * **nivelDetalle**: r, m, e (reducido, medio, extendido). Si no se indica, su valor por defecto será r.
 
 **Observaciones**:
@@ -24,6 +23,7 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
+* **codigoCentro**: Obligatorio (Ej. 38010773)
 * **tieneMatriculaEnElCentro**: selecciona al alumnado que está matriculado al menos en un curso escolar.
 * **conMatriculaEnElCurso**: selecciona al alumnado que está matriculado en el curso escolar indicado.
 * **tieneMatriculaActiva**: selecciona al alumnado con matrícula activa en el centro.
