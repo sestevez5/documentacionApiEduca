@@ -19,21 +19,22 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* Opción 1: Sólo es necesario el codigoCentro.
->* Opción 2: Además del codigoCentro, se tiene que indicar cial, nifnie o pasaporte.
+>* Opción 2: Además del codigoCentro, se tiene que indicar cial, nifnie o pasaporte (sólo uno).
 
 ## Parámetros específicos
 
 ### Opción 1
-* **tieneMatriculaEnElCentro**:
+* **tieneMatriculaEnElCentro**: selecciona al alumnado que está matriculado al menos en un curso escolar.
 * **conMatriculaEnElCurso**:
+* **tieneMatriculaActiva**:
+
+### Opción 2
+
 * **cial**: CIAL del alumnado.
 * **nifnie**: NIF o NIE del alumnado.
 * **pasaporte**: Pasaporte del alumnado.
-* **tieneMatriculaActiva**:
 * **nifNieResponsable**: NIF o NIE del responsable del alumnado.
 * **pasaporteResponsable**: Pasaporte del responsable del alumnado.
-
-### Opción 2
 * **tieneServicioEnElCentro**: Booleano que permite seleccionar a los docentes que tienen o han tenido algún servicio en el centro. Si no se indica, se seleccionan todos los docentes del centro.
 * **tieneServicioEnElCurso**: Cuando se ha seleccionado la opción anterior, permite indicar el curso escolar en el que ha tenido servicio un docente (Ej. 2023).
 
