@@ -25,7 +25,7 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 1
 * **tieneMatriculaEnElCentro**: selecciona al alumnado que está matriculado al menos en un curso escolar.
-* **conMatriculaEnElCurso**:
+* **conMatriculaEnElCurso**: selecciona al alumnado que está matriculado en el curso escolar indicado.
 * **tieneMatriculaActiva**:
 
 ### Opción 2
