@@ -17,7 +17,7 @@ Pueden ser comunes o específicos de cada opción.
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
->* Opción 1: Sólo es necesario el codigoCentro.
+>* Opción 1: Sólo es obligatorio el codigoCentro.
 >* Opción 2: Se tiene que indicar cial, nifnie o pasaporte (sólo uno).
 
 ## Parámetros específicos
