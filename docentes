@@ -4,7 +4,7 @@ ApiEduca es un ApiREST de carácter interno de La Consejería de Educación, For
 
 # Seguridad
 
-En líneas generales, el consumo de los endpoints publicados en este API requiere de una autenticación previa. Es requisito indespensable para su consumo disponer de un ApiKey que será gestionada por el servicio. Además, puede requerirse, adicionalmente, la autenticación adicional de una persona registrada en el servicio de autenticación.
+En líneas generales, el consumo de los endpoints publicados en este API requiere de una autenticación previa. Es requisito indispensable para su consumo disponer de un ApiKey que será gestionada por el servicio. Además, puede requerirse, adicionalmente, la autenticación adicional de una persona registrada en el servicio de autenticación.
 
 # Parámetros
 Pueden ser comunes o específicos de cada opción.
