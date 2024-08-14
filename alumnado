@@ -25,7 +25,7 @@ Pueden ser comunes o específicos de cada opción.
 ### Opción 1
 * **codigoCentro**: Obligatorio (Ej. 38010773)
 * **tieneMatriculaEnElCentro**: selecciona al alumnado que está matriculado al menos en un curso escolar.
-* **conMatriculaEnElCurso**: selecciona al alumnado que está matriculado en el curso escolar indicado.
+* **conMatriculaEnElCurso**: selecciona al alumnado que está matriculado en el curso escolar indicado como cadena de texto.
 * **tieneMatriculaActiva**: selecciona al alumnado con matrícula activa en el centro.
 
 ### Opción 2
