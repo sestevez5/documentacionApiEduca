@@ -36,8 +36,6 @@ Pueden ser comunes o específicos de cada opción.
 * **pasaporte**: Pasaporte del alumnado.
 * **nifNieResponsable**: NIF o NIE del responsable del alumnado.
 * **pasaporteResponsable**: Pasaporte del responsable del alumnado.
-* **tieneServicioEnElCentro**: Booleano que permite seleccionar a los docentes que tienen o han tenido algún servicio en el centro. Si no se indica, se seleccionan todos los docentes del centro.
-* **tieneServicioEnElCurso**: Cuando se ha seleccionado la opción anterior, permite indicar el curso escolar en el que ha tenido servicio un docente (Ej. 2023).
 
 
 **Observaciones**: Ambos son opcionales.
