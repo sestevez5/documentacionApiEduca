@@ -32,11 +32,12 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 2
 
-* **cial**: CIAL del alumnado.
+* **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
 * **nifnie**: NIF o NIE del alumnado.
-* **pasaporte**: Pasaporte del alumnado.
+* **idEnsenyanza**: Si no se indica, se muestran todas las enseñanzas para el curso y centro indicado.
+* **idEstudio**: Si no se indica, se muestran todas los estudios para el curso y centro indicado.
 
-**Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no están permitidos en ninguna de las opciones.
+**Observaciones**: Los campos cursoEscolar y codigoCentro no están permitidos en esta opción.
 
 # Ejemplos.
 ### A) Solicitud de datos extendidos del alumno con cial B00P08015J.
