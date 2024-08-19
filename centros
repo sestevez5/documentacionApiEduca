@@ -16,8 +16,8 @@ Pueden ser comunes o específicos de cada opción.
 * **idCentroSC**: Si no se indica, se muestran todos los centros (Ej. 2250)
 * **codEtapaCentro**: Si no se indica, se muestran todos los tipos de centros (Ej. IES).
 * **isla**: Si no se indica, se muestran los centros de todas las islas (Ej. 3, muestra los centros de Gran Canaria).
-* **naturaleza**: Si no se indica, se muestran los centros de cualquier naturaleza (Ej. 1, muestra los centros de naturaleza pública).
-* **zonaInspeccion**:
+* **naturaleza**: Si no se indica, se muestran los centros de cualquier naturaleza (Ej. 1, muestra los centros públicos).
+* **zonaInspeccion**: Si no se indica, se muestran los centros de todas las zonas de inspección (Ej. 305, muestra los centros adscritos a esa zona).
 * **cursoEscolarZonaInspeccion**:
 * **codigoMunicipio**:
 
