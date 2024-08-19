@@ -33,7 +33,6 @@ Pueden ser comunes o específicos de cada opción.
 ### Opción 2
 
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
-* **nifnie**: NIF o NIE del alumnado.
 * **idEnsenyanza**: Si no se indica, se muestran todas las enseñanzas para el curso y centro indicado.
 * **idEstudio**: Si no se indica, se muestran todas los estudios para el curso y centro indicado.
 
