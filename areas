@@ -24,9 +24,11 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
-* **cursoEscolar**: NIF o NIE del responsable del alumnado.
+* **cursoEscolar**: Año inicial del curso (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773)
-* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
+* **idEnsenyanza**: Si no se indica, se muestran todas las enseñanzas para el curso y centro indicado.
+* **idEstudio**: Si no se indica, se muestran todas los estudios para el curso y centro indicado.
+* **incluirNoVigentes**: Si se selecciona, incluye los estudios no vigentes.
 
 ### Opción 2
 
