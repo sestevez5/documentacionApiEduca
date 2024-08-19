@@ -45,5 +45,5 @@ Pueden ser comunes o específicos de cada opción.
 ### B) Solicitud de datos reducidos de todo el alumnado del centro con código "35010488".
 > * ?opcion=1 & codigoCentro=35010488
 
-### C) Solicitud de datos con nivel de detalle medio del alumnado del centro con código "35010488" y matrícula en el curso 2023. 
-> * ?opcion=1 & codigoCentro=35010488 & conMatriculaEnElCurso=2023 & nivelDetalle=m
+### C) Solicitud de datos con nivel de detalle medio de los estudios de la enseñanza indicada del centro con código "35010488" en el curso 2023. 
+> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & idEnsenyanza=737B55AB-E9C8-4EF0-A923-21B7E63C6F6B & idEstudio=016FE156-2D80-44BC-AA11-00652E182F90 & nivelDetalle=m
