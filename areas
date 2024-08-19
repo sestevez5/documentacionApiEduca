@@ -14,6 +14,9 @@ Pueden ser comunes o específicos de cada opción.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
 * **nivelDetalle**: Se deberá escoger uno obligatoriamente r, m (reducido, medio)
+* **idEnsenyanza**: Si no se indica, se muestran todas las enseñanzas para el curso y centro indicado.
+* **idEstudio**: Si no se indica, se muestran todas los estudios para el curso y centro indicado.
+* **incluirNoVigentes**: Si se selecciona, incluye los estudios no vigentes.
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
@@ -24,17 +27,12 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
-* **cursoEscolar**: Año inicial del curso (Ej. 2023).
+* **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773)
-* **idEnsenyanza**: Si no se indica, se muestran todas las enseñanzas para el curso y centro indicado.
-* **idEstudio**: Si no se indica, se muestran todas los estudios para el curso y centro indicado.
-* **incluirNoVigentes**: Si se selecciona, incluye los estudios no vigentes.
 
 ### Opción 2
 
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
-* **idEnsenyanza**: Si no se indica, se muestran todas las enseñanzas para el curso y centro indicado.
-* **idEstudio**: Si no se indica, se muestran todas los estudios para el curso y centro indicado.
 
 **Observaciones**: Los campos cursoEscolar y codigoCentro no están permitidos en esta opción.
 
