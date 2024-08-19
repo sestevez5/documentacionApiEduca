@@ -18,8 +18,8 @@ Pueden ser comunes o específicos de cada opción.
 * **isla**: Si no se indica, se muestran los centros de todas las islas (Ej. 3, muestra los centros de Gran Canaria).
 * **naturaleza**: Si no se indica, se muestran los centros de cualquier naturaleza (Ej. 1, muestra los centros públicos).
 * **zonaInspeccion**: Si no se indica, se muestran los centros de todas las zonas de inspección (Ej. 305, muestra los centros adscritos a esa zona).
-* **cursoEscolarZonaInspeccion**: Si no se indica, se muestran los centros para todos los cursos (Ej. 2022, muestra los centros de este curso).
-* **codigoMunicipio**:
+* **cursoEscolarZonaInspeccion**: Si no se indica, se muestran los centros para todos los cursos (Ej. 2022, muestra los centros de ese curso).
+* **codigoMunicipio**: Si no se indica, se muestran los centros de todos los municipio (Ej. 38005, muestra los centros con ese código)
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
