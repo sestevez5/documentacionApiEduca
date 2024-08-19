@@ -24,8 +24,8 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
+* **cursoEscolar**: NIF o NIE del responsable del alumnado.
 * **codigoCentro**: Obligatorio (Ej. 38010773)
-* **nifNieResponsable**: NIF o NIE del responsable del alumnado.
 * **pasaporteResponsable**: Pasaporte del responsable del alumnado.
 
 ### Opción 2
