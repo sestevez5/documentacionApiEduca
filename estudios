@@ -38,6 +38,6 @@ Pueden ser comunes o específicos de cada opción.
 ### A) Solicitud de los estudios, incluidos los no ofertados, para el idCursoCentro especificado .
 > * ?opcion=2 & incluirNoOfertados=true & idCursoCentro=0D95CCCE-E390-4190-B1F8-10A90A4B7477
 
-### B) Solicitud de los enseñanzas del centro con código "35007374" en el curso 2024.
-> * ?opcion=1 & cursoEscolar=2024 & codigoCentro=35007374
+### B) Solicitud de los estudios del centro con código "38016519" en el curso 2022.
+> * ?opcion=1 & cursoEscolar=2022 & codigoCentro=38016519
 
