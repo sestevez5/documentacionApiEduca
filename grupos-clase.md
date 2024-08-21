@@ -44,3 +44,8 @@ Pueden ser comunes o específicos de cada opción.
 ### B) Solicitud de los grupos clase con nivelDetalle reducido de una enseñanza del centro con código "35007374" en el curso 2021.
 > * ?opcion=1 & cursoEscolar=2021 & codigoCentro=38011327 & idEnsenyanzaSC=9
 
+### C) Solicitud de todos los grupos clase con nivelDetalle medio para un idCursoCentro determinado.
+> * ?opcion=2 & idCursoCentro=D2F5FE18-A312-4939-B8CC-46D8E8EF46FF & nivelDetalle=m
+
+### D) Solicitud de los grupos clase con nivelDetalle reducido de una enseñanza del centro con código "35007374" en el curso 2021.
+> * ?opcion=1 & cursoEscolar=2021 & codigoCentro=38011327 & idEnsenyanzaSC=9 
