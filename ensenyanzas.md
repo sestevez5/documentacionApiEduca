@@ -34,9 +34,9 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: Los campos cursoEscolar y codigoCentro no están permitidos en esta opción.
 
 # Ejemplos.
-### A) Solicitud de las enseñanzas para el idCursoCentro especificado .
+### A) Solicitud de todas las enseñanzas para el idCursoCentro especificado .
 > * ?opcion=2 & idCursoCentro=E480D237-EC8C-4AFF-A870-01C277A3D712
 
-### B) Solicitud de las enseñanzas del centro con código "35007374" en el curso 2024.
+### B) Solicitud de todas las enseñanzas del centro con código "35007374" en el curso 2024.
 > * ?opcion=1 & cursoEscolar=2024 & codigoCentro=35007374
 
