@@ -39,11 +39,11 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no están permitidos en ninguna de las opciones.
 
 # Ejemplos.
-### A) Solicitud de datos extendidos del alumno con cial B00P08015J.
+### A) Solicitud de datos con nivelDetalle extendido del alumno con cial B00P08015J.
 > * ?opcion=2 & cial=B00P08015J & nivelDetalle=e
 
-### B) Solicitud de datos reducidos de todo el alumnado del centro con código "35010488".
+### B) Solicitud de datos con nivelDetalle reducido de todo el alumnado del centro con código "35010488".
 > * ?opcion=1 & codigoCentro=35010488
 
-### C) Solicitud de datos con nivel de detalle medio del alumnado del centro con código "35010488" y matrícula en el curso 2023. 
+### C) Solicitud de datos con nivelDetalle medio del alumnado del centro con código "35010488" y matrícula en el curso 2023. 
 > * ?opcion=1 & codigoCentro=35010488 & conMatriculaEnElCurso=2023 & nivelDetalle=m
