@@ -37,7 +37,7 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: Los campos cursoEscolar y codigoCentro están permitidos en esta opción, pero no se tienen en cuenta ya que quedan determinados por el campo idCursoCentro.
 
 # Ejemplos.
-### A) Solicitud de las evaluaciones del curso 2019 para una enseñanza determinada del centro con código "35010488".
+### A) Solicitud de las evaluaciones del curso 2019 para una enseñanza concreta del centro con código "35010488".
 > * ?opcion=1 & cursoEscolar=2019 & codigoCentro=35010488 & idEnsenyanza=C3E9383D-03D9-4CD1-83CE-15DAF8BF3E1D
 
 ### B) Solicitud de todas las evaluaciones para el idCursoCentro especificado .
