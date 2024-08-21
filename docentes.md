@@ -38,12 +38,12 @@ Pueden ser comunes o específicos de cada opción.
 
 
 # Ejemplos.
-### A) Solicitud de datos extendidos del docente con nif = 00000001R en el centro con código "35010488".
+### A) Solicitud de datos con nivelDetalle extendido del docente con nif = 00000001R en el centro con código "35010488".
 > * ?opcion=1 & codigoCentro=35010488 & nifnie=00000001R & nivelDetalle=e
 
-### B) Solicitud de datos reducidos de todos los docentes del centro con código "35010488".
+### B) Solicitud de datos con nivelDetalle reducido de todos los docentes del centro con código "35010488".
 > * ?opcion=2 & codigoCentro=35010488
 
-### C) Solicitud de datos con nivel de detalle medio de los docentes del centro con código "35010488" y servicio en el curso 2023. 
+### C) Solicitud de datos con nivelDetalle medio de los docentes del centro con código "35010488" y servicio en el curso 2023. 
 > * ?opcion=2 & codigoCentro=35010488 & tieneServicioEnElCentro=true & tieneServicioEnElCurso=2023 & nivelDetalle=m
 
