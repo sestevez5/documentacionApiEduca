@@ -13,6 +13,7 @@ Pueden ser comunes o específicos de cada opción.
 * **posicionInicial**: número de página a partir de la que se recuperarán los datos. Si no se indica, su valor por defecto será 0.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
+* **nivelDetalle**: r, m (reducido, medio). Si no se indica, su valor por defecto será r.
 
 
 **Observaciones**:
