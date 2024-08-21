@@ -24,9 +24,11 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 1
 * **cursoEscolar**: Obligatorio (Ej. 2023).
-* **codigoCentro**: Obligatorio (Ej. 38010773)
+* **codigoCentro**: Obligatorio (Ej. 38010773).
+* **idEstudioSC**: Optativo. No se puede especificar simultáneamente con el campo *idEnsenyanzaSC* (Ej. 232)
+* **idEnsenyanzaSC**: Optativo. No se puede especificar simultáneamente con el campo *idEstudioSC* (Ej. 26)
 
-**Observaciones**: El campo idCursoCentro no está permitido en esta opción.
+**Observaciones**: Los campos idCursoCentro, IdEstudio, IdEnsenyanza no están permitidos en esta opción.
 
 ### Opción 2
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
