@@ -32,7 +32,7 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 2
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
-* ***idEnsenyanza*: Si no se indica, se muestran todas las evaluaciones para el idCursoCentro introducido.
+* **idEnsenyanza**: Si no se indica, se muestran todas las evaluaciones para el idCursoCentro introducido.
 
 **Observaciones**: Los campos cursoEscolar y codigoCentro están permitidos en esta opción, pero no se tienen en cuenta ya que quedan determinados por el campo idCursoCentro.
 
