@@ -26,7 +26,7 @@ Pueden ser comunes o específicos de cada opción.
 * **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773)
 * **idCursoCentro**: Si no se indica, se muestran todas las evaluaciones para el curso y centro especificado (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
-* ***idEnsenyanza*: Si no se indica, se muestran las evaluaciones de todas las enseñanzas del curso y centro especificado (Ej. FF31EB10-8792-4121-87C7-3076537F5822).
+* **idEnsenyanza**: Si no se indica, se muestran las evaluaciones de todas las enseñanzas del curso y centro especificado (Ej. FF31EB10-8792-4121-87C7-3076537F5822).
 
 **Observaciones**: El campo idCursoCentro no se tienen en cuenta en esta opción, ya que queda determinado por los campos cursoEscolar y codigoCentro.
 
