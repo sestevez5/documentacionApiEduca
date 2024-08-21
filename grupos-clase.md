@@ -32,8 +32,10 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 2
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
+* **idEstudio**: Optativo. No se puede especificar simultáneamente con el campo *idEnsenyanza* (Ej. FB122AE6-37F4-45AF-BED5-F401C0AB6E87)
+* **idEnsenyanza**: Optativo. No se puede especificar simultáneamente con el campo *idEstudio* (Ej. 5FF2F0FD-02AD-44F0-8D39-EF37774F9569)
 
-**Observaciones**: Los campos cursoEscolar y codigoCentro no están permitidos en esta opción.
+**Observaciones**: Los campos cursoEscolar, codigoCentro, idEstudioSC, idEnsenyanzaSC no están permitidos en esta opción.
 
 # Ejemplos.
 ### A) Solicitud de las enseñanzas para el idCursoCentro especificado .
