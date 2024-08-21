@@ -15,7 +15,6 @@ Pueden ser comunes o específicos de cada opción.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
 * **nivelDetalle**: r, m (reducido, medio). Si no se indica, su valor por defecto será r.
 
-
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* Opción 1: Los campos obligatorios son el cursoEscolar y el codigoCentro.
