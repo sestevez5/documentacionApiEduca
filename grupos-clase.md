@@ -41,6 +41,6 @@ Pueden ser comunes o específicos de cada opción.
 ### A) Solicitud de todos los grupos clase con nivelDetalle medio del centro con código "38011327" en el curso 2022.
 > * ?opcion=1 & cursoEscolar=2022 & codigoCentro=38011327 & nivelDetalle=m
 
-### B) Solicitud de las enseñanzas del centro con código "35007374" en el curso 2024.
-> * ?opcion=1 & cursoEscolar=2024 & codigoCentro=35007374
+### B) Solicitud de los grupos clase con nivelDetalle reducido de una enseñanza del centro con código "35007374" en el curso 2021.
+> * ?opcion=1 & cursoEscolar=2021 & codigoCentro=38011327 & idEnsenyanzaSC=9
 
