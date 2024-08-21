@@ -43,5 +43,5 @@ Pueden ser comunes o específicos de cada opción.
 ### B) Solicitud de todas las evaluaciones para el idCursoCentro especificado .
 > * ?opcion=2 & idCursoCentro=E480D237-EC8C-4AFF-A870-01C277A3D712
 
-### C) Solicitud de las evaluaciones de una enseñanza para un idCursoCentro determinado.
+### C) Solicitud de las evaluaciones de una enseñanza concreta para un idCursoCentro determinado.
 > * ?opcion=2 & idCursoCentro=E480D237-EC8C-4AFF-A870-01C277A3D712 & idEnsenyanza=FF31EB10-8792-4121-87C7-3076537F5822
