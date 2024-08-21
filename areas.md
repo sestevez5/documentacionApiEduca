@@ -38,11 +38,11 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: Los campos cursoEscolar y codigoCentro no están permitidos en esta opción.
 
 # Ejemplos.
-### A) Solicitud de datos medios para los estudios de la enseñanza y el idCursoCentro especificado .
+### A) Solicitud de datos con nivel de detalle medio para los estudios de una enseñanza concreta y un idCursoCentro determinado.
 > * ?opcion=2 & idCursoCentro=561BD9BC-E680-49DA-ABE9-0F3BA098D444 & idEnsenyanza=0B2E6A87-262D-4502-B8EB-834F44F60488 & nivelDetalle=m
 
-### B) Solicitud de datos reducidos de todos los estudios y enseñanzas del centro con código "35010488" en el curso 2022.
+### B) Solicitud de datos con nivel de detalle reducido de todos los estudios y enseñanzas del centro con código "35010488" en el curso 2022.
 > * ?opcion=1 & cursoEscolar=2022 & codigoCentro=35010488 & nivelDetalle=r
 
-### C) Solicitud de datos con nivel de detalle medio de los estudios de la enseñanza indicada del centro con código "35010488" en el curso 2023. 
+### C) Solicitud de datos con nivel de detalle medio de los estudios de una enseñanza concreta del centro con código "35010488" en el curso 2023. 
 > * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & idEnsenyanza=737B55AB-E9C8-4EF0-A923-21B7E63C6F6B & idEstudio=016FE156-2D80-44BC-AA11-00652E182F90 & nivelDetalle=m
