@@ -13,15 +13,11 @@ Pueden ser comunes o específicos de cada opción.
 * **posicionInicial**: número de página a partir de la que se recuperarán los datos. Si no se indica, su valor por defecto será 0.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
-* **tieneMatriculaEnElCentro**: selecciona al alumnado que está matriculado al menos en un curso escolar.
-* **conMatriculaEnElCurso**: selecciona al alumnado que está matriculado en el curso escolar indicado como cadena de texto.
-* **nivelDetalle**: r, m, e (reducido, medio, extendido). Si no se indica, su valor por defecto será r.
-* **tieneMatriculaActiva**: selecciona al alumnado con matrícula activa en el centro.
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* Opción 1: Sólo es obligatorio el codigoCentro.
->* Opción 2: Sólo es obligatorio el cial, nifnie o pasaporte (uno solo).
+>* Opción 2: Sólo es obligatorio el idCursoCentro.
 
 ## Parámetros específicos
 
@@ -33,6 +29,7 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 2
 
+* **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
 * **cial**: CIAL del alumnado.
 * **nifnie**: NIF o NIE del alumnado.
 * **pasaporte**: Pasaporte del alumnado.
