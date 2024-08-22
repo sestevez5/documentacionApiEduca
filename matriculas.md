@@ -19,7 +19,7 @@ Pueden ser comunes o específicos de cada opción.
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* Opción 1: Los campos obligatorios son el cursoEscolar y el codigoCentro.
 >* Opción 2: El campo idCursoCentro es obligatorio.
->* El campo _idAlumnadoCentro_ no está permitido en ninguna de las opciones.
+>* Los campos _idAlumnadoCentro_, _cial_, _nifNie_, _pasaporte_, _nifNieResponsable_ y _pasaporteResponsable_ no están permitidos en ninguna de las opciones.
 
 ## Parámetros específicos
 
@@ -29,20 +29,13 @@ Pueden ser comunes o específicos de cada opción.
 * **idEstudioSC**: Si no se indica, se muestran las matrículas de todos los estudios (Ej. 344).
 * **codigoGrupo**: Si no se indica, se muestran las matrículas de todos los grupos (Ej. 1ESOB).
 
-
 ### Opción 2
 
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
-* **idEstudio**:
-* **idGrupo**:
-* **idAlumnadoCentro**:
-* **cial**: CIAL del alumnado.
-* **nifnie**: NIF o NIE del alumnado.
-* **pasaporte**: Pasaporte del alumnado.
-  **nifNieResponsable**: NIF o NIE del responsable del alumnado.
-* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
+* **idEstudio**: Si no se indica, se muestran las matrículas de todos los estudios (Ej. 6701A4CA-1008-4A91-A2F7-6B68F3A0B360).
+* **idGrupo**: Si no se indica, se muestran las matrículas de todos los grupos (Ej. 0a606f79-6f58-4adb-9d8a-6061f38b20ba).
 
-**Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no están permitidos en ninguna de las opciones.
+**Observaciones**: 
 
 # Ejemplos.
 ### A) Solicitud de datos con nivelDetalle extendido del alumno con cial B00P08015J.
