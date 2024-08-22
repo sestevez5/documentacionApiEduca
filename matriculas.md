@@ -13,7 +13,7 @@ Pueden ser comunes o específicos de cada opción.
 * **posicionInicial**: número de página a partir de la que se recuperarán los datos. Si no se indica, su valor por defecto será 0.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
-* * **fechaReferencia**: Si se indica, muestra las matrículas a partir de esta fecha (Ej. 2023-08-31)
+* **fechaReferencia**: Si se indica, muestra las matrículas del curso hasta esta fecha (Ej. 2023-08-31)
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
