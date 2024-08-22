@@ -13,26 +13,34 @@ Pueden ser comunes o específicos de cada opción.
 * **posicionInicial**: número de página a partir de la que se recuperarán los datos. Si no se indica, su valor por defecto será 0.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
+* * **fechaReferencia**: 
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* Opción 1: Los campos obligatorios son el cursoEscolar y el codigoCentro.
 >* Opción 2: El campo idCursoCentro es obligatorio.
+>* El campo _idAlumnadoCentro_ no está permitido en ninguna de las opciones.
 
 ## Parámetros específicos
 
 ### Opción 1
 * **cursoEscolar**: Obligatorio (Ej. 2024)
 * **codigoCentro**: Obligatorio (Ej. 38010773)
-* **nifNieResponsable**: NIF o NIE del responsable del alumnado.
-* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
+* **idEstudioSC**: Si no se indica, se muestran las matrículas de todos los estudios (Ej. 344).
+* **codigoGrupo**: Si no se indica, se muestran las matrículas de todos los grupos (Ej. 1ESOB).
+
 
 ### Opción 2
 
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
+* **idEstudio**:
+* **idGrupo**:
+* **idAlumnadoCentro**:
 * **cial**: CIAL del alumnado.
 * **nifnie**: NIF o NIE del alumnado.
 * **pasaporte**: Pasaporte del alumnado.
+  **nifNieResponsable**: NIF o NIE del responsable del alumnado.
+* **pasaporteResponsable**: Pasaporte del responsable del alumnado.
 
 **Observaciones**: Los campos nifNieResponsable y pasaporteResponsable no están permitidos en ninguna de las opciones.
 
