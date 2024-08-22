@@ -41,8 +41,12 @@ Pueden ser comunes o específicos de cada opción.
 ### A) Solicitud de matrículas del centro con código "38011273" para el curso 2023 a fecha 1 de septiembre de 2023.
 > * ?opcion=1 & cursoEscolar=2023 & codigoCentro=38011273 & fechaReferencia=2023-09-01
 
-### B) Solicitud de datos con nivelDetalle reducido de todo el alumnado del centro con código "35010488".
-> * ?opcion=1 & codigoCentro=35010488
+### B) Solicitud de matrículas del grupo "INGB1A23" del centro con código "38011273" para el curso 2023.
+> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=38011273 & codigoGrupo=INGB1A23
 
-### C) Solicitud de datos con nivelDetalle medio del alumnado del centro con código "35010488" y matrícula en el curso 2023. 
-> * ?opcion=1 & codigoCentro=35010488 & conMatriculaEnElCurso=2023 & nivelDetalle=m
+### C) Solicitud de matrículas para un idCursoCentro determinado.
+> * ?opcion=2 & idCursoCentro=E480D237-EC8C-4AFF-A870-01C277A3D712
+
+### D) Solicitud de matrículas para un estudio y grupo concreto de un idCursoCentro determinado a fecha 30 de noviembre de 2023.
+> * ?opcion=2 & idCursoCentro=E480D237-EC8C-4AFF-A870-01C277A3D712 & idEstudio=5cdfc556-a164-4018-8a0f-f34aa5924a67 & idGrupo=0a606f79-6f58-4adb-9d8a-6061f38b20ba & fechaReferencia=2023-11-30
+ 
