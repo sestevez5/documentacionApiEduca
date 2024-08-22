@@ -38,8 +38,8 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: 
 
 # Ejemplos.
-### A) Solicitud de datos con nivelDetalle extendido del alumno con cial B00P08015J.
-> * ?opcion=2 & cial=B00P08015J & nivelDetalle=e
+### A) Solicitud de matrículas del centro con código "38011273" para el curso 2023 a fecha 1 de septiembre de 2023.
+> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=38011273 & fechaReferencia=2023-09-01
 
 ### B) Solicitud de datos con nivelDetalle reducido de todo el alumnado del centro con código "35010488".
 > * ?opcion=1 & codigoCentro=35010488
