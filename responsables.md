@@ -14,9 +14,8 @@ Pueden ser comunes o específicos de cada opción.
 * **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2. Se deberá escoger uno obligatoriamente.
 * **tieneMatriculaEnElCentro**: selecciona al alumnado que está matriculado al menos en un curso escolar.
-* **conMatriculaEnElCurso**: selecciona al alumnado que está matriculado en el curso escolar indicado como cadena de texto.
 * **nivelDetalle**: r, m, e (reducido, medio, extendido). Si no se indica, su valor por defecto será r.
-* **tieneMatriculaActiva**: selecciona al alumnado con matrícula activa en el centro.
+
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
