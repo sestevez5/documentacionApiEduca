@@ -39,6 +39,7 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 2
 * **nifNieDocente**: NIF o NIE del docente.
+* **fechaReferenciaServicioDocente**:
 
 **Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
 
