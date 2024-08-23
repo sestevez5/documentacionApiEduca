@@ -15,11 +15,13 @@ Pueden ser comunes o específicos de cada opción.
 * **opcion**: 1, 2, 3, 4, 5. Se deberá escoger uno obligatoriamente.
 * **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773).
+* **fechaReferenciaHorario**: Si se especifica, se muestran las actividades en la fecha indicada.
+* **horarioCompleto**: Si se selecciona, se muestran todas las actividades.
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
->* En ambas opciones los campos _cursoEscolar_ y _codigoCentro_ son obligatorios.
->* Opción 1: Además del cursoEscolar y codigoCentro, será necesario indicar nifNieAlumnado o cialAlumnado.
+>* En todas las opciones los campos _cursoEscolar_ y _codigoCentro_ son obligatorios.
+>* Opción 1: Proporciona las actividades-horario del alumnado. Además del cursoEscolar y codigoCentro, será necesario indicar nifNieAlumnado o cialAlumnado (uno solo de los dos) e idEstudioSC.
 >* Opción 2: .
 >* Opción 3: .
 >* Opción 4: .
@@ -28,16 +30,17 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
-* **cursoEscolar**: Obligatorio (Ej. 2023).
-* **codigoCentro**: Obligatorio (Ej. 38010773).
+* **nifNieAlumnado**: 
+* **cialAlumnado**:
+* **fechaReferenciamatricula**:
 * **idEstudioSC**: Obligatorio (Ej. 232).
 
-**Observaciones**: El campo idCursoCentro no está permitido en esta opción.
+**Observaciones**: No están permitidos en esta opción los campos _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
 
 ### Opción 2
 * **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
 
-**Observaciones**: Los campos cursoEscolar y codigoCentro no están permitidos en esta opción.
+**Observaciones**: El campo idEstudioSC no está permitidos en esta opción.
 
 # Ejemplos.
 ### A) Solicitud de datos con nivelDetalle medio para los estudios de una enseñanza concreta y un idCursoCentro determinado.
