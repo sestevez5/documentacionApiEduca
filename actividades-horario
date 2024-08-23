@@ -22,7 +22,7 @@ Pueden ser comunes o específicos de cada opción.
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
 >* En todas las opciones los campos _cursoEscolar_ y _codigoCentro_ son obligatorios.
 >* Opción 1: Proporciona las actividades-horario del alumnado. Además del cursoEscolar y codigoCentro, será necesario indicar nifNieAlumnado o cialAlumnado (uno solo de los dos) e idEstudioSC.
->* Opción 2: .
+>* Opción 2: Proporciona las actividades-horario del docente. Además del cursoEscolar y codigoCentro, será necesario indicar el nifNieDocente.
 >* Opción 3: .
 >* Opción 4: .
 >* Opción 5: .
@@ -30,17 +30,17 @@ Pueden ser comunes o específicos de cada opción.
 ## Parámetros específicos
 
 ### Opción 1
-* **nifNieAlumnado**: 
-* **cialAlumnado**:
-* **fechaReferenciamatricula**:
+* **nifNieAlumnado**: NIF o NIE del alumnado.
+* **cialAlumnado**: Pasaporte del alumnado.
+* **fechaReferenciaMatricula**:
 * **idEstudioSC**: Obligatorio (Ej. 232).
 
 **Observaciones**: No están permitidos en esta opción los campos _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
 
 ### Opción 2
-* **idCursoCentro**: Obligatorio (Ej. E480D237-EC8C-4AFF-A870-01C277A3D712).
+* **nifNieDocente**: NIF o NIE del docente.
 
-**Observaciones**: El campo idEstudioSC no está permitidos en esta opción.
+**Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
 
 # Ejemplos.
 ### A) Solicitud de datos con nivelDetalle medio para los estudios de una enseñanza concreta y un idCursoCentro determinado.
