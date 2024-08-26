@@ -15,7 +15,7 @@ Pueden ser comunes o específicos de cada opción.
 * **opcion**: 1, 2, 3, 4, 5. Se deberá escoger uno obligatoriamente.
 * **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773).
-* **fechaReferenciaHorario**: Si se especifica, se muestran las actividades en la fecha indicada.
+* **fechaReferenciaHorario**: Si se especifica, se muestran las actividades de la semana en la fecha indicada.
 * **horarioCompleto**: Si se selecciona, se muestran todas las actividades.
 
 **Observaciones**:
@@ -63,8 +63,8 @@ Pueden ser comunes o específicos de cada opción.
 ### A) Solicitud del horario completo de un alumno para un estudio concreto y un curso escolar determinado.
 > * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & horarioCompleto=true & cialAlumnado=A95F0610K & idEstudioSC=3206
 
-### B) Solicitud de datos con nivelDetalle reducido de todos los estudios y enseñanzas del centro con código "35010488" en el curso 2022.
-> * ?opcion=1 & cursoEscolar=2022 & codigoCentro=35010488 & nivelDetalle=r
+### B) Solicitud del horario de un docente para un curso escolar determinado.
+> * ?opcion=2 & cursoEscolar=2023 & codigoCentro=35010488 & nifNieDocente=00000001R
 
 ### C) Solicitud de datos con niveDetalle medio de los estudios de una enseñanza concreta del centro con código "35010488" en el curso 2023. 
 > * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & idEnsenyanza=737B55AB-E9C8-4EF0-A923-21B7E63C6F6B & idEstudio=016FE156-2D80-44BC-AA11-00652E182F90 & nivelDetalle=m
