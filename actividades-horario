@@ -23,7 +23,7 @@ Pueden ser comunes o específicos de cada opción.
 >* En todas las opciones los campos _cursoEscolar_ y _codigoCentro_ son obligatorios.
 >* Opción 1: Proporciona las actividades-horario del alumnado. Además del cursoEscolar y codigoCentro, será necesario indicar nifNieAlumnado o cialAlumnado (uno solo de los dos) e idEstudioSC.
 >* Opción 2: Proporciona las actividades-horario del docente. Además del cursoEscolar y codigoCentro, será necesario indicar el nifNieDocente.
->* Opción 3: .
+>* Opción 3: Proporciona las actividades-horario del personal de administración y servicios. Además del cursoEscolar y codigoCentro, será necesario indicar el nifNiePas.
 >* Opción 4: .
 >* Opción 5: .
 
@@ -42,6 +42,14 @@ Pueden ser comunes o específicos de cada opción.
 * **fechaReferenciaServicioDocente**:
 
 **Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
+
+### Opción 3
+* **nifNieDocente**: NIF o NIE del docente.
+* **fechaReferenciaServicioDocente**:
+
+**Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNieDocente_, _fechaReferenciaServicioDocente_, _codigoGrupo_, _codigoDependencia_.
+
+
 
 # Ejemplos.
 ### A) Solicitud de datos con nivelDetalle medio para los estudios de una enseñanza concreta y un idCursoCentro determinado.
