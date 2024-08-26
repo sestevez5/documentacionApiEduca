@@ -15,7 +15,7 @@ Pueden ser comunes o específicos de cada opción.
 * **opcion**: 1, 2, 3, 4, 5. Se deberá escoger uno obligatoriamente.
 * **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773).
-* **fechaReferenciaHorario**: Si se especifica, se muestran las actividades de la semana en la fecha indicada.
+* **fechaReferenciaHorario**: Si se especifica, se muestran las actividades de la semana en la que se encuentra la fecha indicada.
 * **horarioCompleto**: Si se selecciona, se muestran todas las actividades.
 
 **Observaciones**:
