@@ -33,7 +33,7 @@ Pueden ser comunes o específicos de cada opción.
 * **nifNieAlumnado**: NIF o NIE del alumnado.
 * **cialAlumnado**: Pasaporte del alumnado.
 * **fechaReferenciaMatricula**:
-* **idEstudioSC**: Obligatorio (Ej. 232).
+* **idEstudioSC**: Obligatorio (Ej. 3206).
 
 **Observaciones**: No están permitidos en esta opción los campos _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
 
