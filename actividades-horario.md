@@ -31,7 +31,7 @@ Pueden ser comunes o específicos de cada opción.
 
 ### Opción 1
 * **nifNieAlumnado**: NIF o NIE del alumnado.
-* **cialAlumnado**: Pasaporte del alumnado.
+* **cialAlumnado**: CIAL del alumnado.
 * **fechaReferenciaMatricula**:
 * **idEstudioSC**: Obligatorio (Ej. 3206).
 
@@ -60,8 +60,8 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_ , _codigoGrupo_.
 
 # Ejemplos.
-### A) Solicitud de datos con nivelDetalle medio para los estudios de una enseñanza concreta y un idCursoCentro determinado.
-> * ?opcion=2 & idCursoCentro=561BD9BC-E680-49DA-ABE9-0F3BA098D444 & idEnsenyanza=0B2E6A87-262D-4502-B8EB-834F44F60488 & nivelDetalle=m
+### A) Solicitud del horario completo de un alumno para un estudio concreto y un curso escolar determinado.
+> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & horarioCompleto=true & cialAlumnado=A95F0610K & idEstudioSC=3206
 
 ### B) Solicitud de datos con nivelDetalle reducido de todos los estudios y enseñanzas del centro con código "35010488" en el curso 2022.
 > * ?opcion=1 & cursoEscolar=2022 & codigoCentro=35010488 & nivelDetalle=r
