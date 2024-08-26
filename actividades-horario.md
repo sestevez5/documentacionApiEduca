@@ -16,7 +16,7 @@ Pueden ser comunes o específicos de cada opción.
 * **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773).
 * **fechaReferenciaHorario**: Si se especifica, se muestran las actividades de la semana en la que se encuentra la fecha indicada.
-* **horarioCompleto**: Si se selecciona, se muestran todas las actividades.
+* **horarioCompleto**: Si se selecciona, se muestran todas las actividades, tanto para cualquier periodo de vigencia como para una colección de fechas.
 
 **Observaciones**:
 >* Si no se indican posicionInicial ni tamanyoBloque, el número máximo de páginas a recuperar es 100 (posicionInicial = 0, tamanyoBloque = 100).
