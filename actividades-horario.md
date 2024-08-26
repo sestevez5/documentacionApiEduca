@@ -24,8 +24,8 @@ Pueden ser comunes o específicos de cada opción.
 >* Opción 1: Proporciona las actividades-horario del alumnado. Además del cursoEscolar y codigoCentro, será necesario indicar nifNieAlumnado o cialAlumnado (uno solo de los dos) e idEstudioSC.
 >* Opción 2: Proporciona las actividades-horario del docente. Además del cursoEscolar y codigoCentro, será necesario indicar el nifNieDocente.
 >* Opción 3: Proporciona las actividades-horario del personal de administración y servicios. Además del cursoEscolar y codigoCentro, será necesario indicar el nifNiePas.
->* Opción 4: .
->* Opción 5: .
+>* Opción 4: Proporciona las actividades-horario de un grupo. Además del cursoEscolar y codigoCentro, será necesario indicar el codigoGrupo.
+>* Opción 5: Proporciona las actividades-horario de una dependencia. Además del cursoEscolar y codigoCentro, será necesario indicar el codigoDependencia.
 
 ## Parámetros específicos
 
@@ -44,12 +44,20 @@ Pueden ser comunes o específicos de cada opción.
 **Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNiePas_, _fechaReferenciaServicioPas_, _codigoGrupo_, _codigoDependencia_.
 
 ### Opción 3
-* **nifNieDocente**: NIF o NIE del docente.
-* **fechaReferenciaServicioDocente**:
+* **nifNiePas**: NIF o NIE del personal de administración y servicios.
+* **fechaReferenciaServicioPas**:
 
 **Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNieDocente_, _fechaReferenciaServicioDocente_, _codigoGrupo_, _codigoDependencia_.
 
+### Opción 4
+* **codigoGrupo**: Obligatorio (Ej. ESO1A).
 
+**Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_ , _codigoDependencia_.
+
+### Opción 5
+* **codigoDependencia**: Obligatorio (Ej. A10).
+
+**Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_ , _codigoGrupo_.
 
 # Ejemplos.
 ### A) Solicitud de datos con nivelDetalle medio para los estudios de una enseñanza concreta y un idCursoCentro determinado.
