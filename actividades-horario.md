@@ -3,9 +3,9 @@
 Este endpoint proporciona datos de actividades susceptibles de disponer de horario:
 * Matrículas (alumnado),
 * Docentes-servicio (docentes),
-* Pas-servicio (personal de administración y servicios),
+* PAS-servicio (personal de administración y servicios),
 * Grupos,
-* Dependencias
+* Dependencias.
 
 ## Parámetros comunes
 * **opcion**: 1, 2, 3, 4, 5. Se deberá escoger uno obligatoriamente.
@@ -55,17 +55,17 @@ Este endpoint proporciona datos de actividades susceptibles de disponer de horar
 **Observaciones**: No están permitidos en esta opción los campos _nifNieAlumnado_, _cialAlumnado_, _fechaReferenciaMatricula_, _idEstudioSC_, _nifNieDocente_, _fechaReferenciaServicioDocente_, _nifNiePas_, _fechaReferenciaServicioPas_ , _codigoGrupo_.
 
 # Ejemplos.
-### A) Solicitud del horario completo de un alumno para un estudio concreto y un curso escolar determinado.
+### A) Solicitud del horario completo de una matrícula para un estudio concreto y un curso escolar determinado.
 > * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & horarioCompleto=true & cialAlumnado=A95F0610K & idEstudioSC=3206
 
-### B) Solicitud del horario de un docente para un curso escolar determinado.
+### B) Solicitud del horario de un docente-servicio para un curso escolar determinado.
 > * ?opcion=2 & cursoEscolar=2023 & codigoCentro=35010488 & nifNieDocente=00000001R
 
-### C) Solicitud de datos con niveDetalle medio de los estudios de una enseñanza concreta del centro con código "35010488" en el curso 2023. 
-> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & idEnsenyanza=737B55AB-E9C8-4EF0-A923-21B7E63C6F6B & idEstudio=016FE156-2D80-44BC-AA11-00652E182F90 & nivelDetalle=m
+### C) Solicitud del horario completo de un pas-servicio en la fecha "30/03/2024". 
+> * ?opcion=3 & cursoEscolar=2023 & codigoCentro=35010488 & nifNiePas=Y3003352A & fechaReferenciaServicioPas=2024-03-30
 
-### D) Solicitud de datos con niveDetalle medio de los estudios de una enseñanza concreta del centro con código "35010488" en el curso 2023. 
-> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & idEnsenyanza=737B55AB-E9C8-4EF0-A923-21B7E63C6F6B & idEstudio=016FE156-2D80-44BC-AA11-00652E182F90 & nivelDetalle=m
+### D) Solicitud del horario completo del grupo "2ESOA" para el curso 2023. 
+> * ?opcion=4 & cursoEscolar=2023 & codigoCentro=35010488 & horarioCompleto=true & codigoGrupo=2ESOA
 
-### E) Solicitud de datos con niveDetalle medio de los estudios de una enseñanza concreta del centro con código "35010488" en el curso 2023. 
-> * ?opcion=1 & cursoEscolar=2023 & codigoCentro=35010488 & idEnsenyanza=737B55AB-E9C8-4EF0-A923-21B7E63C6F6B & idEstudio=016FE156-2D80-44BC-AA11-00652E182F90 & nivelDetalle=m
+### E) Solicitud del horario de actividades en la dependencia "A10" en la fecha "30/05/2024". 
+> * ?opcion=5 & cursoEscolar=2023 & codigoCentro=35010488 & fechaReferenciaHorario=2024-05-30 & codigoDependencia=A10
