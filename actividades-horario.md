@@ -1,17 +1,8 @@
 # Descripción general
 
-ApiEduca es un ApiREST de carácter interno de La Consejería de Educación, Formación Profesional, Actividad Física y Deportes del Gobierno de Canarias que expone las entidades que forman parte del dominio de Pincel (aplicación de gestión académica y administrativa de centros educativos). No obstante, con carácter temporal, también ofrece entidades de dominios externos como, por ejemplo, entidades del dominio del Directorio de Centros o el Plan de Estudio de Canarias.
 
-# Seguridad
-
-En líneas generales, el consumo de los endpoints publicados en este API requiere de una autenticación previa. Es requisito indispensable para su consumo disponer de un ApiKey que será gestionada por el servicio. Además, puede requerirse, adicionalmente, la autenticación adicional de una persona registrada en el servicio de autenticación.
-
-# Parámetros
-Pueden ser comunes o específicos de cada opción.
 
 ## Parámetros comunes
-* **posicionInicial**: número de página a partir de la que se recuperarán los datos. Si no se indica, su valor por defecto será 0.
-* **tamanyoBloque**: número de páginas que se recuperarán. Si no se indica, su valor por defecto será 100.
 * **opcion**: 1, 2, 3, 4, 5. Se deberá escoger uno obligatoriamente.
 * **cursoEscolar**: Obligatorio (Ej. 2023).
 * **codigoCentro**: Obligatorio (Ej. 38010773).
